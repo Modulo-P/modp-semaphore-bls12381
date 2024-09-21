@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "strict": true,
+        "target": "ES2020",
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "preserveConstEnums": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "declaration": true,
+        "allowSyntheticDefaultImports": true,
+        "paths": {
+            "@smodp-semaphore-bls12381/*": ["./packages/*/src"]
+        },
+    },
+    "ts-node": {
+        "compilerOptions": {
+            "target": "ES2020",
+            "module": "commonjs"
+        }
+    }
+}

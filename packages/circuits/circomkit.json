@@ -1,0 +1,6 @@
+{
+    "prime": "bls12381",
+    "include": [
+        "../../node_modules"
+    ]
+}

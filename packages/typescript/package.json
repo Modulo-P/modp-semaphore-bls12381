@@ -1,0 +1,26 @@
+{
+  "name": "@modp-semaphore-bls12381/typescript",
+  "version": "1.0.0",
+  "description": "Typescript utils for Semaphore circuit for BLS12-381",
+  "author": "Juan Salvador Magán Valero",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@ethersproject/bignumber": "^5.7.0",
+    "@ethersproject/bytes": "^5.7.0",
+    "@ethersproject/keccak256": "^5.7.0",
+    "@zk-kit/incremental-merkle-tree": "^1.1.0",
+    "poseidon-bls12381": "1.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
+}

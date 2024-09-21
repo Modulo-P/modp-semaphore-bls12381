@@ -1,0 +1,13 @@
+{
+    "semaphore": {
+        "file": "semaphore",
+        "template": "Semaphore",
+        "pubs": [
+            "signalHash",
+            "externalNullifier"
+        ],
+        "params": [
+            20
+        ]
+    }
+}

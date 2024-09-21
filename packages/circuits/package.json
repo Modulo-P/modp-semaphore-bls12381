@@ -1,0 +1,27 @@
+{
+  "name": "@modp-semaphore-bls12381/circuits",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "mocha --watch",
+    "compile": "circomkit compile semaphore",
+    "setup": "./create_pot.sh && circomkit setup semaphore ptau/pot14_final.ptau"
+  },
+  "dependencies": {
+    "@modp-semaphore-bls12381/typescript": "^1",
+    "@semaphore-protocol/group": "^3",
+    "@semaphore-protocol/identity": "^3",
+    "@semaphore-protocol/proof": "^3",
+    "circomlib": "^2.0.5",
+    "poseidon-bls12381": "^1.0.2",
+    "poseidon-bls12381-circom": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.7",
+    "@types/node": "^22.5.3",
+    "circomkit": "^0.2.1",
+    "mocha": "^10.7.3",
+    "poseidon-lite": "^0.3.0"
+  }
+}

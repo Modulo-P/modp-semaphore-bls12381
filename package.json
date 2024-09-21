@@ -1,0 +1,23 @@
+{
+  "name": "modp-semaphore-bls12381",
+  "version": "1.0.0",
+  "description": "Semapohre protocol for Cardano",
+  "repository": "https://github.com/Modulo-P/modulo-p-semaphore-bls12381",
+  "author": "Juan Salvador Magán Valero <jmaganvalero@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "yarn workspaces run test",
+    "build": "yarn workspace @modp-semaphore-bls12381/typescript run build"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "@types/jest": "^29.5.13",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
+}
