@@ -1,0 +1,19 @@
+{
+    "extends": "../../tsconfig.json",  // Extiende la configuración del archivo de la raíz
+    "compilerOptions": {
+        "target": "ES2020",           // ES2017 o superior
+        "module": "ESNext", 
+        "moduleResolution": "node",
+        "outDir": ".",                   // Salida en el mismo directorio que el archivo fuente
+        "rootDir": "src",                // Directorio raíz donde están tus archivos TS
+        "sourceMap": true,                // Habilita la generación de mapas de fuente
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "include": [
+        "src/index.ts",
+        //"src/**/*",
+        //"**/*",
+    ],         
+    "exclude": ["node_modules"]           // Excluye el directorio node_modules
+}

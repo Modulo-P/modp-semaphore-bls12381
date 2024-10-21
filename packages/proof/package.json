@@ -1,0 +1,24 @@
+{
+    "name": "@modp-semaphore-bls12381/proof",
+    "version": "1.0.0",
+    "description": "Util for generating Cardano-Semaphore proofs for testing purposes",
+    "author": "ash",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@aiken-lang/merkle-patricia-forestry": "^1.1.0",
+        "@modp-semaphore-bls12381/circuits": "*",
+        "@modp-semaphore-bls12381/typescript": "*",
+        "@types/snarkjs": "^0.7.8",
+        "typescript": "^5.6.2"
+    },
+    "dependencies": {
+        "@aiken-lang/merkle-patricia-forestry": "^1.1.0",
+        "bigint-buffer": "^1.1.5",
+        "ffjavascript": "^0.3.0",
+        "snarkjs": "^0.7.4"
+    }
+}
